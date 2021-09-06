@@ -20,8 +20,7 @@ linhas_transp = 0
 for linhas_transp in 0..listona[0].count - 1
     transpor(listona,linhas_transp, transposta, colunas)
 end
-p colunas
-p transposta
+
 if colunas % 2 == 0
     transposta.delete_at colunas/2 - 1
     transposta.delete_at colunas/2 - 1 
